@@ -1,0 +1,44 @@
+* {
+  margin: o;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+li,
+h1,
+ul {
+  display: inline;
+}
+
+ul {
+  margin-left: 60%;
+}
+
+li {
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+}
+
+li:hover {
+  color: white;
+}
+
+.subscribe {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
